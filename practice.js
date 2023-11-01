@@ -4,7 +4,7 @@ function myTimer() {
     let count = document.querySelector(".counts");
     
     function updateCountdown() {
-        let myDate = "Sep 06 2023 00:00:00";
+        let myDate = "Jan 01 2024 00:00:00";
         let date = new Date(myDate);
         let currentDate = new Date();
         let totalSeconds = (date - currentDate) / 1000;
